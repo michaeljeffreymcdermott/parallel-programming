@@ -35,39 +35,43 @@ We are basically forcing the following behavior instead of thread1 travel all th
 
 ## Conditional Locks
 You use these when you want threads to block and wait on a condition of another thread. In other words, in a simple two thread scenario, thread 1 will sleep until thread 2 signals it, using pthread_cond_signal() to wake up and do something. The following code shows this.
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/PThreads/Conditional%20Locks
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/PThreads/Conditional%20Locks
 
 ## Barriers
 Syncing multiple threads all at once.
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/PThreads/Barriers
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/PThreads/Barriers
 
 ## Prefix Sum with Barriers
 ### A hopefully clear example of pthreads prefix sum
 There are some issues to work out still. Some have been left in on purpose. Some are probably accidental. This should work on CDER but has only been tested in an ubuntu docker instance so far.
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/PThreads/A%20hopefully%20clear%20example%20of%20pthreads%20prefix%20sum
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/PThreads/A%20hopefully%20clear%20example%20of%20pthreads%20prefix%20sum
 
 # MPI Examples
+
 ## Hello World
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Hello%20World
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Hello%20World
 
 ## Send / Recv
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Send%20%26%20Receive
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Send%20%26%20Receive
 
 ## Isend / Irecv
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Isend%20%26%20Irecv
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Isend%20%26%20Irecv
 
 ## Broadcast
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Broadcast
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Broadcast
 
 ## Scatter and Gather
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Scatter%20and%20Gather
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/MPI/Scatter%20and%20Gather
 
 # CudaC (GPU) Examples
+
 ## Hello World 
+
 ### Hello world in standard C99
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/CudaC/Hello%20World%20in%20C99
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/CudaC/Hello%20World%20in%20C99
+
 ### Hello World in Cuda-C
-https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/CudaC/Hello%20World%20in%20Cuda-C
+### CODE: https://github.com/michaeljeffreymcdermott/parallel-programming/blob/master/CudaC/Hello%20World%20in%20Cuda-C
 
 
 
