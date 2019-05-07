@@ -1,5 +1,4 @@
-# Important Notes for 
-# !!Parallel programming class Michael McDermott is teaching Fall semester!!
+# Important Notes for Parallel programming class Michael McDermott is teaching Fall semester
 
 
 # PThreads Examples 
