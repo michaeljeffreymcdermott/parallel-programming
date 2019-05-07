@@ -1,4 +1,8 @@
-# PThreads Examples for parallel programming class I am teaching this semester
+# Important Notes for 
+# !!Parallel programming class Michael McDermott is teaching Fall semester!!
+
+
+# PThreads Examples 
 
 DISCLAIMER: I have had a lot of these examples for a very long time and do not remember where some (really any) of them originally come from. I try to keep them updated so that they can be compiled and run with little to no modification on our various systems. They may require some small modifications to compile and run though.
 
