@@ -1,5 +1,5 @@
 # Important Notes for Parallel programming class Michael McDermott is teaching Fall semester
-
+[Syllabus](https://grid.cs.gsu.edu/~mmcdermott2/dw/doku.php?id=teaching:4310:home)
 
 # PThreads Examples 
 
